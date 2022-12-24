@@ -17,7 +17,7 @@ h1{
     font-size: 8vh;
     position: relative;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%,-80%)          
 }
 h1 span

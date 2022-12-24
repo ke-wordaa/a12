@@ -1,8 +1,8 @@
 $(document).ready(function () 
 {
-    var audio = new Audio("music/a.mp3");
-    audio.play();
-    audio.loop=true
+    // var audio = new Audio("music/a.mp3");
+    // audio.play();
+    // audio.loop=true
     let day_time = new Date('4/29/2023')
     let  da = new Date()
     var difference= Math.abs(day_time-da)
@@ -13,3 +13,12 @@ $(document).ready(function ()
     
     audio.play();
 })
+var audio = document.createElement("audio");
+audio.setAttribute("src", "./music/a.mp3");
+document.addEventListener("touchstart", function () {
+    audio.play();
+});
+
+setInterval(function () {
+    audio.play();
+}, 3000);

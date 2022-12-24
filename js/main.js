@@ -1,7 +1,8 @@
-var audio = new Audio("/music/cwalx-xwwhd.mp3");
-audio.play();
 $(document).ready(function () 
 {
+    var audio = new Audio("music/a.mp3");
+    audio.play();
+    audio.loop=true
     let day_time = new Date('4/29/2023')
     let  da = new Date()
     var difference= Math.abs(day_time-da)

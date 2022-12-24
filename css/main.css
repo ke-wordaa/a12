@@ -26,15 +26,16 @@ h1 span
     left: 20%;
     font-size: 16vh;
 }
-    h3{
+h3
+{
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 4px;
-    width: 45vh;
+    width: 56vh;
     border-radius: 20px ;
 }
 .bubble{

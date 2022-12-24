@@ -10,15 +10,13 @@ $(document).ready(function ()
     days = Math.round(day)+1
     console.log(days)
     $("#day").html(days+'天');
-    
-    audio.play();
 })
 var audio = document.createElement("audio");
 audio.setAttribute("src", "./music/a.mp3");
 document.addEventListener("touchstart", function () {
+    audio.muted = true;
     audio.play();
+    audio.addEventListener("ended", function(){
+        audio.muted = false;
+    });
 });
-
-setInterval(function () {
-    audio.play();
-}, 3000);

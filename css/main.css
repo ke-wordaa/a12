@@ -35,7 +35,7 @@ h3
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 4px;
-    width: 56vh;
+    width: 54vh;
     border-radius: 20px ;
 }
 .bubble{

@@ -12,7 +12,8 @@ body
     font-family: 'seto_font';
     src : url('../js/setofont/setofont.ttf');
 }
-#h1{
+#h1
+{
     font-family: seto_font;
     font-size: 7vh;
     text-align: center;   
@@ -39,10 +40,12 @@ h3
     width: 38vh;
     border-radius: 26px ;
 }
-.text_dayt{
+.text_dayt
+{
     text-align: left;
 }
-.bubble{
+.bubble
+{
   position:absolute;
   top:0;
   left:0;
@@ -51,8 +54,8 @@ h3
   z-index:0;
   transform:translateZ(0);
 }
-
-.bubble li{
+.bubble li
+{
   position:absolute;
   list-style:none;
   display:block;
@@ -61,7 +64,8 @@ h3
   animation:bubble-ani 20s linear infinite;
   border-radius:100%;
 }
-.bubble li:before {
+.bubble li:before 
+{
     position: absolute;
     left: 20%;
     top: 21%;
@@ -72,12 +76,14 @@ h3
     height: 25%;
     border-radius: 100%;
 }
-.bubble li:nth-child(1){
+.bubble li:nth-child(1)
+{
     width:20px;
     height:20px;
     left:15%;
 }
-.bubble li:nth-child(2){
+.bubble li:nth-child(2)
+{
     width:40px;
     height:40px;
     left:40%;
@@ -100,7 +106,8 @@ h3
     animation-duration:10s;
     animation-delay:1.5s;
 }
-.bubble li:nth-child(5){
+.bubble li:nth-child(5)
+{
     width:20px;
     height:20px;
     left:35%;

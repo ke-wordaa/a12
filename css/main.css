@@ -149,6 +149,14 @@ h3
     border-radius: 80px ;
     height: auto;
     text-align: center;
-
+    
+}
+.home
+{
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
 

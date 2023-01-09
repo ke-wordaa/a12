@@ -12,7 +12,7 @@ body
     font-family: 'seto_font';
     src : url('../js/setofont/setofont.ttf');
 }
-h1{
+#h1{
     font-family: seto_font;
     font-size: 7vh;
     text-align: center;   
@@ -28,6 +28,7 @@ h1 span
 }
 h3
 {
+    text-align: center;
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
@@ -37,6 +38,9 @@ h3
     border:black  solid 9px;
     width: 54vh;
     border-radius: 26px ;
+}
+.text_dayt{
+    text-align: left;
 }
 .bubble{
   position:absolute;
@@ -129,5 +133,22 @@ h3
     border-radius: 20px ;
     height: 9vh;
     text-align: center;
+}
+.public
+{
+    color: white;
+    background-color: black;
+    font-family: seto_font;
+    font-size: 6vh;
+    position: relative;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:black  solid 5px;
+    width: 45vh;
+    border-radius: 80px ;
+    height: auto;
+    text-align: center;
+
 }
 

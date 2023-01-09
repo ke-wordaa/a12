@@ -15,7 +15,7 @@ body
 #h1
 {
     font-family: seto_font;
-    font-size: 7vh;
+    font-size: 5vh;
     text-align: center;   
     position: relative;
     top: 30%;
@@ -25,7 +25,7 @@ body
 h1 span
 {
     text-align: center;
-    font-size: 10vh;
+    font-size: 9vh;
 }
 h3
 {
@@ -148,13 +148,13 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: 2%;
+    top: 2.3%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 5px;
     width: 45vh;
     border-radius: 80px ;
-    height: auto;
+    height: 20VH;
     text-align: center;   
 }
 

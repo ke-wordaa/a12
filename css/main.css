@@ -15,7 +15,7 @@ body
 #h1
 {
     font-family: seto_font;
-    font-size: 8vh;
+    font-size: 6vh;
     text-align: center;   
     position: relative;
     top: 30%;
@@ -134,7 +134,7 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: -13%;
+    top: -12%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 5px;

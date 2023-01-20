@@ -15,14 +15,14 @@ body
 #h1
 {
     font-family: seto_font;
-    font-size: 5vh;
+    font-size: 8vh;
     text-align: center;   
     position: relative;
     top: 30%;
     left: 50%; 
     transform: translate(-50%,-80%);
 }
-h1 span
+h1 t
 {
     text-align: center;
     font-size: 9vh;
@@ -33,7 +33,7 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: 48%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 9px;
@@ -127,20 +127,6 @@ h3
         transform:translateY(-1080px);
     }
 }
-.title 
-{
-    font-family: seto_font;
-    font-size: 6vh;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border:black  solid 5px;
-    width: 40vh;
-    border-radius: 20px ;
-    height: 9vh;
-    text-align: center;
-}
 .public
 {
     color: white;
@@ -148,7 +134,7 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: 2%;
+    top: -8%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 5px;

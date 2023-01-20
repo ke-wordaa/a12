@@ -10,7 +10,7 @@ $(document).ready(function ()
     $("#day").html(days+'天');
     if (days<=10) 
     {
-        $("#day").css('font-size', '200px');
+        $("#day").css('font-size', '23vh');
         $("#day").css('color', 'red');
     }
     switch (days) 

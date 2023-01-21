@@ -1,3 +1,16 @@
+@keyframes bubble-ani 
+{
+    0%
+    {
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+    }
+    100%
+    {
+        -webkit-transform:translateY(-1080px);
+        transform:translateY(-1080px);
+    }
+}
 body
 {
     padding: 0;
@@ -50,7 +63,7 @@ h3
 @font-face
 {
     font-family: 'seto_font';
-    src : url('../js/setofont/setofont.ttf');
+    src : url('./setofont/setofont.ttf');
 }
 .text_dayt
 {
@@ -125,17 +138,4 @@ h3
     left:35%;
     animation-duration:10s;
     animation-delay:2s;
-}
-@keyframes bubble-ani 
-{
-    0%
-    {
-        -webkit-transform:translateY(0);
-        transform:translateY(0);
-    }
-    100%
-    {
-        -webkit-transform:translateY(-1080px);
-        transform:translateY(-1080px);
-    }
 }

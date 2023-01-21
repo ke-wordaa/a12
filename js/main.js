@@ -1,6 +1,5 @@
 $(document).ready(function () 
 {
-    $('body').css('font-family', 'seto_font');
     let day_time = new Date('4/29/2023')
     let  da = new Date()
     let A= Math.abs(day_time-da)

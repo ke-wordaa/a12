@@ -33,7 +33,7 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 9px;
@@ -134,13 +134,13 @@ h3
     font-family: seto_font;
     font-size: 6vh;
     position: relative;
-    top: -12%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%,-50%);
     border:black  solid 5px;
     width: 45vh;
     border-radius: 80px ;
-    height: 20VH;
+    height: auto;
     text-align: center;   
 }
 

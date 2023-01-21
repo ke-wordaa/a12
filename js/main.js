@@ -5,6 +5,7 @@ $(document).ready(function ()
     let A= Math.abs(day_time-da)
     day = A/(1000 * 3600 * 24)
     days = Math.round(day)
+    days = 5
     console.log(days)
     $("#day").html(days+"天");
     if (days<=10) 

@@ -5,7 +5,6 @@ $(document).ready(function ()
     var difference= Math.abs(day_time-da)
     day = difference/(1000 * 3600 * 24)
     days = Math.round(day)
-    days = 8
     console.log(days)
     $("#day").html(days+'天');
     if (days<=10) 

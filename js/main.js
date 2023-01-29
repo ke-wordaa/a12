@@ -74,7 +74,7 @@ $(document).ready(function ()
             $(".p_public_text").html("祝你考試加油!");
             break;
         default:
-            $(".p_public_text").html("新年快樂~❤️");
+            $(".p_public_text").html("弟弟想你喔~❤️");
             break;
         }
     }

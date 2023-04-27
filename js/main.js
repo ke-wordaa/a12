@@ -5,9 +5,12 @@ $(document).ready(function ()
     let A= Math.abs(day_time-da)
     day = A/(1000 * 3600 * 24)
     days = Math.round(day)
-    // days = 5 
+    // days = -1
     console.log(days)
-    $("#day").html(days+"天");
+    if (days >0)
+    {
+        $("#day").html(days+"天");
+    }
     if (days<=10) 
     {
         $("#day").css('font-size', '23vh');
@@ -74,7 +77,9 @@ $(document).ready(function ()
             $(".p_public_text").html("祝你考試加油!");
             break;
         default:
-            $(".p_public_text").html("弟弟想你喔~❤️");
+            // $(".p_public_text").html("弟弟想你喔~❤️");
+            $(".p_public_text").html("考試考完了!<br>姐姐辛苦了!");
+
             break;
         }
     }

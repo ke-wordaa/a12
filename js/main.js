@@ -3,7 +3,8 @@ $(document).ready(function ()
     let day_time = new Date('4/29/2023')
     let  da = new Date()
     let A= Math.abs(day_time-da)
-    day = A/(1000 * 3600 * 24)
+    // day = A/(1000 * 3600 * 24)
+    day = -1    
     days = Math.round(day)
     // days = -1
     console.log(days)
@@ -11,6 +12,7 @@ $(document).ready(function ()
     {
         $("#day").html(days+"天");
     }
+  
     if (days<=10) 
     {
         $("#day").css('font-size', '23vh');

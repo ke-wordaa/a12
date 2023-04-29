@@ -19,14 +19,17 @@ body
     height: 100vh;
     overflow: hidden;
 }
+
 #h1
 {
+  
     font-size: 5vh;
     text-align: center;   
     position: relative;
     top: 30%;
     left: 50%; 
     transform: translate(-50%,-80%);
+  
 }
 h1 t
 {
@@ -47,18 +50,26 @@ h3
 }
 .public
 {
+    /* display: block;  */
+    /* margin:0 auto;   */
+    padding: 0;
+    margin-top:30% ;
+    margin-bottom   :30% ;
     color: white;
     background-color: black;
     font-size: 6vh;
     position: relative;
-    top: 0%;
+    top: 50%;
     left: 50%;
+    bottom: 40%;
     transform: translate(-50%,-50%);
-    border:black  solid 5px;
+    border:black  solid 5px;  
     width: 45vh;
     border-radius: 80px ;
-    height: auto;
-    text-align: center;   
+    height: auto; 
+    text-align: center; 
+    align-items: center; */
+    justify-content: center;
 }
 @font-face
 {

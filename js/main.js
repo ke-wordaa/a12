@@ -6,7 +6,7 @@ $(document).ready(function ()
     day = A/(1000 * 3600 * 24)
     
     days = Math.round(day)
-    days = 
+    // days = 
     console.log(days)
     if (days >0)
     {

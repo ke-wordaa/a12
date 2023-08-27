@@ -15,7 +15,6 @@ $(document).ready(function ()
     else
     {
         $(h1).html('');
-        $(h3_text).html('考完了!');
     }
   
     if (days<=10) 

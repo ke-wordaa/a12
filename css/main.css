@@ -26,7 +26,7 @@ body
     font-size: 5vh;
     text-align: center;   
     position: relative;
-    top: 30%;
+    top: 40%;
     left: 50%; 
     transform: translate(-50%,-80%);
   
@@ -35,6 +35,7 @@ h1 t
 {
     text-align: center;
     font-size: 9vh;
+    
 }
 h3
 {
@@ -48,29 +49,8 @@ h3
     width: 38vh;
     border-radius: 26px ;
 }
-.public
-{
-    /* display: block;  */
-    /* margin:0 auto;   */
-    padding: 0;
-    margin-top:30% ;
-    margin-bottom   :30% ;
-    color: white;
-    background-color: black;
-    font-size: 6vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    bottom: 40%;
-    transform: translate(-50%,-50%);
-    border:black  solid 5px;  
-    width: 45vh;
-    border-radius: 80px ;
-    height: auto; 
-    text-align: center; 
-    align-items: center;
-    justify-content: center;
-}
+
+
 @font-face
 {
     font-family: 'seto_font';

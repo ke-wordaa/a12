@@ -1,16 +1,21 @@
 $(document).ready(function () 
 {
-    let day_time = new Date('4/29/2023')
+    let day_time = new Date('5/4/2024')
     let  da = new Date()
     let A= Math.abs(day_time-da)
-    // day = A/(1000 * 3600 * 24)
-    day = -1    
+    day = A/(1000 * 3600 * 24)
+    
     days = Math.round(day)
-    // days = -1
+    days = 
     console.log(days)
     if (days >0)
     {
         $("#day").html(days+"天");
+    }
+    else
+    {
+        $(h1).html('');
+        $(h3_text).html('考完了!');
     }
   
     if (days<=10) 
@@ -19,70 +24,5 @@ $(document).ready(function ()
         $("#day").css('color', 'red');
         $('.public').css('top', '-5%');
     }
-    switch (days) 
-    {
-        case 90:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 80:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 70:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 60:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 50:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 40:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 30:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 20:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 10:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 9:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 8:
-            $(".p_public_text").html("倒數"+days+"天喔");
-            break;
-        case 7:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 6:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 5:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 4:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 3:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 2:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 1:
-            $(".p_public_text").html("倒數"+days+"天喔<br>調整心情");
-            break;
-        case 0:
-            $(".p_public_text").html("祝你考試加油!");
-            break;
-        default:
-            // $(".p_public_text").html("弟弟想你喔~❤️");
-            $(".p_public_text").html("考試考完了!<br>姐姐辛苦了!");
-
-            break;
-        }
     }
 );

@@ -1,6 +1,6 @@
 $(document).ready(function () 
 {
-    let day_time = new Date('5/4/2024')
+    let day_time = new Date('4/27/2024')
     let  da = new Date()
     let A= Math.abs(day_time-da)
     day = A/(1000 * 3600 * 24)

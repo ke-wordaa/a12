@@ -1,9 +1,9 @@
 $(document).ready(function () 
 {
-    let day_time = new Date('4/27/2024')
+    let day_time = new Date('5/3/2025')
     let  da = new Date()
-    let A= Math.abs(day_time-da)
-    day = A/(1000 * 3600 * 24)
+    let A= Math.floor(day_time-da)
+    day = A/(1000 * 3600 * 24)+1
     
     days = Math.round(day)
     // days = 
